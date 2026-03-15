@@ -1,4 +1,4 @@
-<h1 align="center">Flutter Instagram Clone (Stream-agram)</h1>
+<h1 align="center">Flutter Instagram Clone</h1>
 
 <p align="center">
     <a href="https://pub.dev/packages/stream_feed_flutter_core"><img src="https://img.shields.io/pub/v/stream_feed_flutter_core?include_prereleases" alt="Pub"></a>
