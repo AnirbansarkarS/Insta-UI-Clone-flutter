@@ -26,7 +26,7 @@ class InstaCloneApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
         appBarTheme: const AppBarTheme(
-          color: Colors.white,
+          backgroundColor: Colors.white,
           elevation: 0,
           iconTheme: IconThemeData(color: Colors.black),
           foregroundColor: Colors.black,

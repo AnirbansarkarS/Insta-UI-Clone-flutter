@@ -7,7 +7,7 @@ import 'package:shimmer/shimmer.dart';
 
 class HomeFeed extends StatefulWidget {
   @override
-  _HomeFeedState createState() => _HomeFeedState();
+  State<HomeFeed> createState() => _HomeFeedState();
 }
 
 class _HomeFeedState extends State<HomeFeed> {

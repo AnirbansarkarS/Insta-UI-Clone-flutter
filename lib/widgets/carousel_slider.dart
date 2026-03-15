@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide CarouselController;
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:shimmer/shimmer.dart';
@@ -9,7 +9,7 @@ class PostCarouselSlider extends StatefulWidget {
   const PostCarouselSlider({Key? key, required this.imageUrls}) : super(key: key);
 
   @override
-  _PostCarouselSliderState createState() => _PostCarouselSliderState();
+  State<PostCarouselSlider> createState() => _PostCarouselSliderState();
 }
 
 class _PostCarouselSliderState extends State<PostCarouselSlider> {
