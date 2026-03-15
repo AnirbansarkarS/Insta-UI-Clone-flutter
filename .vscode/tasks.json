@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "add_deps",
+			"type": "shell",
+			"command": "flutter pub add shimmer carousel_slider cached_network_image provider interactiveviewer"
+		}
+	]
+}
